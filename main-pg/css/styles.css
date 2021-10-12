@@ -1,0 +1,76 @@
+
+body{
+  margin:0;
+  padding: 0;
+    background-color: #F05454;
+  }
+img{
+  text-align: center;
+}
+footer{
+  background-color: #30475E;
+  padding-left: 5%;
+}
+hr{
+  color: #E8E8E8;
+}
+.heading{
+margin:0;
+padding: 0;
+}
+.caption{
+
+  background-color: #F05454;
+  text-align: center;
+  color:#0F044C;
+    font-family: 'Playfair Display', serif;
+  letter-spacing: 3;
+}
+.main-content{
+  background-color: #E8E8E8;
+  text-align: center;
+  padding-top:  5%;
+font-family: 'Bona Nova', serif;
+}
+
+.navbar{
+  padding-left: 0;
+  padding-right: 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  font-weight: bolder;
+  color: white;
+  position: relative;
+  left: 20px;
+
+}
+
+.nav-item{
+  padding: 0 18px 18px 0;
+}
+
+.nav-link{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+
+
+}
+
+.inputs{
+  display: inline-block;
+  width:50%;
+  background-color: #F0E5CF;
+
+  margin:10%;
+    margin-top: 3%;
+  padding: 5%;
+
+}
+.image{
+  display:inline-block;
+}
+.contact{
+  color:#fff;
+}
