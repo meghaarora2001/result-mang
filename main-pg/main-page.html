@@ -5,13 +5,14 @@
   <meta charset="utf-8">
   <title>SRMS portal</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+
   <!-- google-fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <!--bootstrap script-->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -19,8 +20,7 @@
     <div class="caption">
       <p>
       <h1>INDIRA GANDHI DELHI TECHNICAL UNIVERSITY FOR WOMEN</h1>
-      <h3>Kashmiri Gate, Delhi 110006</h3>
-      <h3>Student Result Management System</h3>
+      <h4>Kashmiri Gate, Delhi 110006</h4>
       <hr>
 
       <section id="title">
@@ -51,9 +51,7 @@
     </div>
 </div>
 </div>
-    <div class="main-content">
-<!-- Admin sign in form -->
-<div class="Admin">
+<div class="Admin column col-lg-6 col-md-12 col-sm-12 col-12" style="display:inline-block; width:40%;">
 
       <h3>
         <div class="login ">
@@ -62,12 +60,12 @@
           </div>
       </h3>
 
-      <div class="inputs container-fluid col-lg-6 col-md-6 col-sm-12 col-12">
+      <div class="inputs container-fluid">
         <form>
           <div class="form-group">
             <label for="exampleInputEmail1">Username</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required="*Required">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <!-- <small id="emailHelp" class="message form-text text-muted">We'll never share your email with anyone else.</small> -->
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
@@ -81,20 +79,21 @@
         </form>
       </div>
     </div>
+  </div>
 <!-- Srudent sign in form -->
+<div class="student column col-lg-6 col-md-12 col-sm-12 col-12" style="display:inline-block; width:40%;">
       <h3>
         <div class="login ">
           <div class="login-heading">
             Sign In Student
           </div>
       </h3>
-
-      <div class="inputs container-fluid col-lg-6 col-md-6 col-sm-12 col-12">
+      <div class="inputs container-fluid">
         <form>
           <div class="form-group">
             <label for="exampleInputEmail1">Username</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required="*Required">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
@@ -107,9 +106,7 @@
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
-
-
-
+    </div>
     </div>
 
 
