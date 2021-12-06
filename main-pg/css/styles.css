@@ -2,32 +2,43 @@
 body{
   margin:0;
   padding: 0;
-    background-color: #F05454;
+  background-image:url("image.jpeg");
   }
 img{
   text-align: center;
 }
 footer{
-  background-color: #30475E;
+  background-color: #10316B;
   padding-left: 5%;
 }
 hr{
   color: #E8E8E8;
 }
+h3{
+  margin-top:20%;
+  margin-left:45%;
+  text-align:center;
+}
 .heading{
 margin:0;
 padding: 0;
 }
+.admin{
+  background-color: #fff;
+}
 .caption{
-
-  background-color: #F05454;
+margin-top:-1%;
+padding-top: 2%;
+  background-color: #10316B;
   text-align: center;
-  color:#0F044C;
+  color:#fff;
     font-family: 'Playfair Display', serif;
   letter-spacing: 3;
 }
 .main-content{
-  background-color: #E8E8E8;
+
+    background-color: #fff;
+  background-image:url("college.jpg");
   text-align: center;
   padding-top:  5%;
 font-family: 'Bona Nova', serif;
@@ -57,15 +68,20 @@ font-family: 'Bona Nova', serif;
 
 
 }
-
+.admin{
+  text-align: center;
+  padding-left:10%;
+  margin-left:15%;
+}
 .inputs{
-  display: inline-block;
-  width:50%;
-  background-color: #F0E5CF;
-
-  margin:10%;
-    margin-top: 3%;
+  display: grid;
+   background-image: linear-gradient(to bottom right, #084177, #00A8CC);
+  width:70%;
+  margin-left:37.5%;
+  margin-bottom: 30%;
+  margin-top: 3%;
   padding: 5%;
+  color:white;
 
 }
 .image{
@@ -73,4 +89,75 @@ font-family: 'Bona Nova', serif;
 }
 .contact{
   color:#fff;
+}
+
+@media screen and (max-width: 991px) {
+.inputs{
+  display:block;
+  width:100%;
+  margin-left:26%;
+}
+.admin{
+  display: block;
+}
+.student{
+    display: block;
+}
+element.style{
+    display: block;
+}
+}
+
+@media screen and (max-width: 750px) {
+  .inputs{
+    display:block;
+    width:100%;
+    margin-left:26%;
+  }
+  .admin{
+    display: block;
+  }
+  .student{
+      display: block;
+  }
+  element.style{
+      display: block;
+  }
+}
+@media screen and (max-width: 655px) {
+  .inputs{
+    display: grid;
+  }
+}
+@media screen and (max-width: 600px) {
+  .inputs{
+    display: grid;
+  }
+}
+@media screen and (max-width: 550px) {
+  .inputs{
+    display: grid;
+  }
+}
+@media screen and (max-width: 530px) {
+  .inputs{
+    display: grid;
+  }
+}
+@media screen and (max-width: 460px) {
+  .inputs{
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .inputs{
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .inputs{
+    display: grid;
+  }
 }
